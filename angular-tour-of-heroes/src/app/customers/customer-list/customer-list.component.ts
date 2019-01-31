@@ -12,4 +12,8 @@ export class CustomerListComponent implements OnInit {
   ngOnInit() {
   }
 
+  suma(a: number, b: number) : number {
+    return a + b;
+  }
+
 }
